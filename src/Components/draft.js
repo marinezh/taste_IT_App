@@ -6,7 +6,7 @@ import Card from "./Card";
 
 const Recipes = () => {
   const [recipes, setRecipes] = useState([]);
-  const [search, setSearch] = useState([]);
+  const [search, setSearch] = useState("");
 
   useEffect(() => {
     axios.get("http://localhost:3001/recipes").then((res) => {
@@ -74,7 +74,6 @@ const Recipes = () => {
                 author={card.author}
                 country={card.country}
                 description={card.description}
-                flag={card.flag}
               />
             );
           })
