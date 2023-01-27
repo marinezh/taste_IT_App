@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import classes from "./Card.module.css";
 import axios from "axios";
 
-const Card = ({ image, name, author, description, country }) => {
+const Card = ({ id, image, name, author, description, country }) => {
   const [flag, setFlag] = useState(null);
 
   useEffect(() => {
@@ -27,7 +27,7 @@ const Card = ({ image, name, author, description, country }) => {
         <p className={classes.desc}>
           {description.split(" ").splice(0, 10).join(" ") + "..."}
         </p>
-        <Link to={`${name}`} className={classes.link}>
+        <Link to={`${id}`} className={classes.link}>
           See more
         </Link>
 

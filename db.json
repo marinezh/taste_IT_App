@@ -1,6 +1,7 @@
 {
   "recipes": [
     {
+      "id": 1,
       "name": "Chicken Parmesan",
       "author": "Maria Valentina",
       "country": "Italy",
@@ -36,6 +37,7 @@
       }
     },
     {
+      "id": 2,
       "name": "Pad Thai",
       "author": "Malee Saelim",
       "country": "Thailand",
@@ -70,6 +72,7 @@
       }
     },
     {
+      "id": 3,
       "name": "Chicken Alfredo",
       "author": "Flavio Giovanni",
       "country": "Italy",
@@ -104,6 +107,7 @@
       }
     },
     {
+      "id": 4,
       "name": "Beef Stroganoff",
       "author": "Alexsei Sidorov",
       "country": "Russia",
@@ -139,6 +143,7 @@
       }
     },
     {
+      "id": 5,
       "name": "Vegetable Stir-Fry",
       "author": "Mao Dong",
       "country": "China",
@@ -175,6 +180,7 @@
       }
     },
     {
+      "id": 6,
       "name": "Finnish Pancakes",
       "author": "Matti Meikäläinen",
       "country": "Finland",
@@ -209,6 +215,7 @@
       }
     },
     {
+      "id": 7,
       "name": "German Potato Salad",
       "author": "Peter Niedersachsen",
       "country": "Germany",
@@ -243,6 +250,7 @@
       }
     },
     {
+      "id": 8,
       "name": "Swiss Cheese Fondue",
       "author": "Karl Franz",
       "country": "Switzerland",
@@ -274,6 +282,7 @@
       }
     },
     {
+      "id": 9,
       "name": "Classic American Cheeseburger",
       "author": "John Doe",
       "country": "United States",
@@ -307,6 +316,7 @@
       }
     },
     {
+      "id": 10,
       "name": "American Pancakes",
       "author": "John Doe",
       "country": "United States",

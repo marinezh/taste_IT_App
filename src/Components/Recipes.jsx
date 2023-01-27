@@ -68,7 +68,8 @@ const Recipes = () => {
           filteredSearch.map((card) => {
             return (
               <Card
-                key={card.name}
+                id={card.id}
+                key={card.id}
                 name={card.name}
                 image={card.image}
                 author={card.author}
