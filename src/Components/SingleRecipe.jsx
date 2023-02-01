@@ -48,14 +48,14 @@ const SingleRecipe = () => {
         <div className={classes.ingr_instr_wrap}>
           <div>
             <h4>Ingridients</h4>
-            {/* <ul className={classes.ul}>
+            <ul className={classes.ul}>
               {recipe.ingredients.map((ingredient) => (
                 <li
                   className={classes.li}
                   key={ingredient.name}
                 >{`${ingredient.quantity} ${ingredient.unit}  ${ingredient.name}`}</li>
               ))}
-            </ul> */}
+            </ul>
           </div>
           <div>
             <h4>Instructions</h4>

@@ -2,10 +2,9 @@
   margin-top: auto;
   background-color: lightgrey;
   max-height: 5vh;
-  display: flex;
-  justify-content: center;
-  position: static;
-}
-
-.footer_info {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
 }

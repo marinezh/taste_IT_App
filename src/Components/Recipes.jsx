@@ -11,13 +11,11 @@ const Recipes = () => {
   useEffect(() => {
     axios.get("http://localhost:3001/recipes").then((res) => {
       setRecipes(res.data);
-      setSearch(res.data);
     });
   }, []);
 
   const searchHandler = (e) => {
     setSearch(e.target.value);
-
     console.log(e.target.value);
   };
 
