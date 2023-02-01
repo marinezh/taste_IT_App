@@ -6,7 +6,7 @@ import Card from "./Card";
 
 const Recipes = () => {
   const [recipes, setRecipes] = useState([]);
-  const [search, setSearch] = useState([]);
+  const [search, setSearch] = useState("");
 
   useEffect(() => {
     axios.get("http://localhost:3001/recipes").then((res) => {
@@ -17,6 +17,7 @@ const Recipes = () => {
 
   const searchHandler = (e) => {
     setSearch(e.target.value);
+
     console.log(e.target.value);
   };
 
@@ -80,7 +81,7 @@ const Recipes = () => {
             );
           })
         ) : (
-          <p>Nothing found</p>
+          <p>nothing found</p>
         )}
       </div>
     </div>

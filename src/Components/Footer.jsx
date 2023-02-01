@@ -4,7 +4,7 @@ import classes from "./Footer.module.css";
 const Footer = () => {
   return (
     <footer className={classes.footer}>
-      <h1>Footer</h1>
+      <p className={classes.footer_info}>By Marina Zhivotova</p>
     </footer>
   );
 };

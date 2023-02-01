@@ -15,9 +15,6 @@ const Nav = () => {
         <li>
           <NavLink to="/addrecipe">Add New Recipe</NavLink>
         </li>
-        <li>
-          <NavLink to="/about">About</NavLink>
-        </li>
       </ul>
     </nav>
   );
