@@ -3,8 +3,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 5rem;
+  margin: 3rem;
 }
+
+.recipe_name {
+  margin-top: 3rem;
+  text-align: center;
+}
+
 .img {
   width: 250px;
   height: 300px;

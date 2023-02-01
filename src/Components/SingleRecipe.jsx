@@ -6,8 +6,8 @@ import classes from "./SingleRecipe.module.css";
 import axios from "axios";
 
 const SingleRecipe = () => {
-  const [recipe, setRecipe] = useState([]);
-  const [flag, setFlag] = useState();
+  const [recipe, setRecipe] = useState({});
+  const [flag, setFlag] = useState("");
   //   const [isLoading, setIsLoading] = useState(false);
 
   const params = useParams();
@@ -33,6 +33,7 @@ const SingleRecipe = () => {
   console.log("test", recipe.ingredients);
   return (
     <div>
+      <h2 className={classes.recipe_name}>{recipe.name}</h2>
       <div className={classes.recipe_card}>
         <div className={classes.desc_img_wrap}>
           <div className={classes.img_flag_wrap}>
@@ -40,16 +41,16 @@ const SingleRecipe = () => {
             <img className={classes.img} src={recipe.image} alt="flag" />
           </div>
           <div className={classes.desc_wrap}>
-            <h4>{recipe.name}</h4>
             <p>by {recipe.author}</p>
+            <p>from {recipe.country}</p>
             <p className={classes.desc}>{recipe.description}</p>
           </div>
         </div>
         <div className={classes.ingr_instr_wrap}>
           <div>
-            <h4>Ingridients</h4>
+            <h4>Ingredients</h4>
             <ul className={classes.ul}>
-              {recipe.ingredients.map((ingredient) => (
+              {recipe.ingredients?.map((ingredient) => (
                 <li
                   className={classes.li}
                   key={ingredient.name}

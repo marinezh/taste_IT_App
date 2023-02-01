@@ -1,7 +1,7 @@
 .footer {
   margin-top: auto;
   background-color: lightgrey;
-  max-height: 5vh;
+  /* max-height: 5vh; */
   position: fixed;
   left: 0;
   bottom: 0;
