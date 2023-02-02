@@ -1,12 +1,13 @@
 import React from "react";
-import videoBG from "../Assets/video.mp4";
+// import videoBG from "../Assets/video.mp4";
 import { NavLink } from "react-router-dom";
 import classes from "./Home.module.css";
+import Hero from "./Hero";
 
 const Home = () => {
   return (
     <div className={classes.home}>
-      <div>
+      {/* <div>
         <div>
           <video src={videoBG} autoPlay loop muted></video>
         </div>
@@ -19,8 +20,8 @@ const Home = () => {
           </p>
           <p>Made in REACT22S Group with Margit Tennosaar</p>
         </div>
-      </div>
-
+      </div> */}
+      <Hero />
       <div className={classes.menu}>
         <div className={classes.menu_card}>
           <h4>Browse Recipes</h4>

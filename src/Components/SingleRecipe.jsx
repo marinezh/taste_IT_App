@@ -21,7 +21,7 @@ const SingleRecipe = () => {
       .then((res) => {
         setRecipe(res.data);
         // setIsLoading(false);
-        console.log("checking data", recipe);
+
         axios
           .get(`https://restcountries.com/v3.1/name/${res.data.country}`)
           .then((res) => {
@@ -29,7 +29,8 @@ const SingleRecipe = () => {
             // setIsLoading(false);
           });
       });
-  }, []);
+  }, [params.singlerecipe]);
+
   console.log("test", recipe.ingredients);
   return (
     <div>
@@ -54,7 +55,7 @@ const SingleRecipe = () => {
                 <li
                   className={classes.li}
                   key={ingredient.name}
-                >{`${ingredient.quantity} ${ingredient.unit}  ${ingredient.name}`}</li>
+                >{`${ingredient.quantity} ${ingredient.unit} ${ingredient.name}`}</li>
               ))}
             </ul>
           </div>

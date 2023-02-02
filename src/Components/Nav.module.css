@@ -9,6 +9,6 @@ ul a {
   color: black;
 }
 
-a:hover {
+li a:hover {
   background-color: yellow;
 }

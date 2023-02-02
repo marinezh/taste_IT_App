@@ -20,21 +20,23 @@ video {
 
 .menu {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   gap: 5rem;
   z-index: 0;
-  background-color: #b9d4c8;
 }
 
 .menu_card {
   /* height: 300px; */
   width: 350px;
   margin: 1rem 0.5rem;
-  pad: 0.5rem 0.5rem;
+  padding: 0.5rem 0.5rem;
   background-color: white;
   border: solid silver;
   border-radius: 3px;
   display: flex;
   flex-direction: column;
   gap: 5px;
+}
+.menu_card a {
+  color: silver;
 }
