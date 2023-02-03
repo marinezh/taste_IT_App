@@ -3,3 +3,13 @@
   padding: 0;
   font-family: "Nunito", sans-serif;
 }
+input,
+textarea {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+input {
+  height: 2rem;
+}

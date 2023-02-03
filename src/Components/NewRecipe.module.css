@@ -9,14 +9,19 @@
 
 .ing_inputs {
   display: flex;
-  gap: 5px;
+  gap: 1rem;
 }
 
 .input {
   display: flex;
   flex-direction: column;
-  gap: 3px;
-  width: 20rem;
+  width: 25rem;
+}
+
+.textarea {
+  display: flex;
+  flex-direction: column;
+  width: 25rem;
 }
 
 .input1,
@@ -24,17 +29,21 @@
 .input3 {
   display: flex;
   flex-direction: column;
-  gap: 3px;
+}
+
+input {
+  color: aqua;
 }
 
 .input1,
 .input2 {
-  width: 5rem;
+  width: 6rem;
 }
 
 .input3 {
-  width: 7rem;
+  width: 11rem;
 }
+
 label {
   color: #0e1111;
 }
