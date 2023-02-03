@@ -36,13 +36,14 @@ const NewRecipe = () => {
     axios
       .post("http://localhost:3001/recipes", newRecipe)
       .then(window.location.reload())
+      .alert("done!")
       .catch((error) => alert(error.response.data));
   };
 
   return (
     <>
       <h1>Add new recipe here</h1>
-      <form className={classes.new_recipe_wrap}>
+      <form className={classes.new_recipe_wrap} onSubmit={postHandler}>
         <div className={classes.input}>
           <label htmlFor="name">Name</label>
           <input
@@ -105,7 +106,7 @@ const NewRecipe = () => {
                 />
               </div>
               <div className={classes.input2}>
-                <label htmlFor="input">Input</label>
+                <label htmlFor="input">Unit</label>
                 <input
                   onChange={(e) => addNewIngredient(e, index)}
                   type="text"
@@ -126,8 +127,9 @@ const NewRecipe = () => {
               </div>
             </div>
           ))}
-
-          <button onClick={addHandler}>Add more</button>
+          <button type="button" onClick={(e) => addHandler(e)}>
+            Add more
+          </button>
         </div>
         <div className={classes.textarea}>
           <label htmlFor="instr">Instructions</label>
@@ -139,7 +141,7 @@ const NewRecipe = () => {
             name="instructions"
           ></textarea>
         </div>
-        <button onClick={postHandler}>Post recipe</button>
+        <button type="submit">Post recipe</button>
       </form>
     </>
   );
