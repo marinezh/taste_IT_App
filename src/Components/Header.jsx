@@ -1,11 +1,14 @@
 import React from "react";
 import classes from "./Header.module.css";
+import { NavLink } from "react-router-dom";
 import Nav from "./Nav";
 
 const Header = () => {
   return (
     <header className={classes.header}>
-      <h2>TasteIt</h2>
+      <NavLink to="/">
+        <h2 className={classes.logo}>TasteIt</h2>
+      </NavLink>
       <Nav />
     </header>
   );

@@ -5,5 +5,11 @@
   align-items: center;
   padding: 0 10px 0 10px;
   position: sticky;
+  list-style-type: none;
   /* height: 7vh; */
+}
+
+.header a {
+  text-decoration: none;
+  color: black;
 }

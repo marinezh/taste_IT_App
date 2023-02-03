@@ -6,7 +6,10 @@
   align-items: center;
   gap: 0.6rem;
 }
-
+.title {
+  text-align: center;
+  margin-top: 2rem;
+}
 .ing_inputs {
   display: flex;
   gap: 1rem;

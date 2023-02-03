@@ -35,14 +35,17 @@ const NewRecipe = () => {
   const postHandler = () => {
     axios
       .post("http://localhost:3001/recipes", newRecipe)
-      .then(window.location.reload())
-      .alert("done!")
+      .then(() => {
+        window.location.reload();
+        alert("done");
+      })
+
       .catch((error) => alert(error.response.data));
   };
 
   return (
     <>
-      <h1>Add new recipe here</h1>
+      <h1 className={classes.title}>Add new recipe here</h1>
       <form className={classes.new_recipe_wrap} onSubmit={postHandler}>
         <div className={classes.input}>
           <label htmlFor="name">Name</label>
