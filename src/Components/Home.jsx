@@ -7,20 +7,6 @@ import Hero from "./Hero";
 const Home = () => {
   return (
     <div className={classes.home}>
-      {/* <div>
-        <div>
-          <video src={videoBG} autoPlay loop muted></video>
-        </div>
-
-        <div className={classes.content}>
-          <h1>TasteIt App</h1>
-          <p>
-            TasteIt is a application where people all around the world can share
-            their favourite recipes.
-          </p>
-          <p>Made in REACT22S Group with Margit Tennosaar</p>
-        </div>
-      </div> */}
       <Hero />
       <div className={classes.menu}>
         <div className={classes.menu_card}>

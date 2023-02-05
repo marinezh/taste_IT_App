@@ -1,11 +1,15 @@
 .footer {
-  margin-top: auto;
   background-color: silver;
-  /* max-height: 5vh; */
+  max-height: 30px;
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
   text-align: center;
-  z-index: 5;
+
+  /* z-index: 5; */
+}
+
+.footer_info {
+  font-size: 12px;
 }

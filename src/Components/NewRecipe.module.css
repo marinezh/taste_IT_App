@@ -8,7 +8,7 @@
 }
 .title {
   text-align: center;
-  margin-top: 2rem;
+  margin-top: 70px;
 }
 .ing_inputs {
   display: flex;
@@ -49,4 +49,13 @@ input {
 
 label {
   color: #0e1111;
+}
+
+.button {
+  margin: 1rem 0 1rem 0;
+  background-color: #ff5252;
+  border-style: none;
+  border-radius: 3px;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  margin-bottom: 1rem;
 }

@@ -13,7 +13,8 @@
 video {
   width: 100%;
   object-fit: cover;
-  max-block-size: 650px;
+  /* max-block-size: 800px; */
+  height: 700px;
 }
 
 .hero_title {

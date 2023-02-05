@@ -3,13 +3,22 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 10px 0 10px;
-  position: sticky;
-  list-style-type: none;
-  /* height: 7vh; */
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+}
+
+.logo {
+  padding-left: 0.5rem;
+  color: #555555;
 }
 
 .header a {
   text-decoration: none;
-  color: black;
+  cursor: pointer;
+  color: #555555;
+}
+
+.material-symbols-outlined {
+  margin-top: 10px;
 }

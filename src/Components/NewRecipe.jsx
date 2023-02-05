@@ -130,7 +130,11 @@ const NewRecipe = () => {
               </div>
             </div>
           ))}
-          <button type="button" onClick={(e) => addHandler(e)}>
+          <button
+            className={classes.button}
+            type="button"
+            onClick={(e) => addHandler(e)}
+          >
             Add more
           </button>
         </div>
@@ -144,7 +148,9 @@ const NewRecipe = () => {
             name="instructions"
           ></textarea>
         </div>
-        <button type="submit">Post recipe</button>
+        <button className={classes.button} type="submit">
+          Post recipe
+        </button>
       </form>
     </>
   );

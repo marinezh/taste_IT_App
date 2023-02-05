@@ -1021,13 +1021,24 @@
     },
     {
       "id": 16,
-      "name": "fghdsh",
-      "author": "fghgfh",
-      "country": "ghdfgh",
-      "description": "ghfdg",
-      "image": "",
-      "ingredients": [],
-      "instructions": "gfhh"
+      "name": "good soup",
+      "author": "marina",
+      "country": "Ukraine",
+      "description": "dddd",
+      "image": "ddd",
+      "ingredients": [
+        {
+          "quantity": "d",
+          "unit": "d",
+          "ingredient": "d"
+        },
+        {
+          "quantity": "d",
+          "unit": "d",
+          "ingredient": "d"
+        }
+      ],
+      "instructions": "ddd"
     },
     {
       "id": 17,
@@ -1058,42 +1069,6 @@
       "image": "",
       "ingredients": [],
       "instructions": ""
-    },
-    {
-      "id": 20,
-      "name": "",
-      "author": "",
-      "country": "",
-      "description": "",
-      "image": "",
-      "ingredients": [],
-      "instructions": ""
-    },
-    {
-      "id": 21,
-      "name": "",
-      "author": "",
-      "country": "",
-      "description": "",
-      "image": "",
-      "ingredients": [],
-      "instructions": ""
-    },
-    {
-      "id": 22,
-      "name": "fasfgs",
-      "author": "fgdfg",
-      "country": "fgfg",
-      "description": "fdgf",
-      "image": "fgf",
-      "ingredients": [
-        {
-          "quantity": "fg",
-          "unit": "fg",
-          "ingredient": "111"
-        }
-      ],
-      "instructions": "11111"
     }
   ]
 }
