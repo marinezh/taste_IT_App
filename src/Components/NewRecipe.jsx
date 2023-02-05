@@ -36,7 +36,6 @@ const NewRecipe = () => {
 
   useEffect(() => {
     axios.get(`https://restcountries.com/v3.1/all`).then((res) => {
-      //
       let data = [];
       res.data.map((a) => data.push(a.name.common));
       data.sort();
@@ -45,12 +44,14 @@ const NewRecipe = () => {
   }, []);
   console.log("countriesss", countries);
 
-  const postHandler = () => {
+  const postHandler = (e) => {
+    e.preventDefault();
+
     axios
       .post("http://localhost:3001/recipes", newRecipe)
       .then(() => {
         window.location.reload();
-        alert("done");
+        alert("Recipe posted successfully ");
       })
 
       .catch((error) => alert(error.response.data));

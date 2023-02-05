@@ -8,18 +8,16 @@ import SingleRecipe from "./Components/SingleRecipe";
 
 function App() {
   return (
-    <div>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Layout />}>
-            <Route index element={<Home />} />
-            <Route path="allrecipes" element={<Recipes />} />
-            <Route path="allrecipes/:singlerecipe" element={<SingleRecipe />} />
-            <Route path="addrecipe" element={<NewRecipe />} />
-          </Route>
-        </Routes>
-      </BrowserRouter>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="allrecipes" element={<Recipes />} />
+          <Route path="allrecipes/:singlerecipe" element={<SingleRecipe />} />
+          <Route path="addrecipe" element={<NewRecipe />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
