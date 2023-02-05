@@ -34,10 +34,6 @@
   flex-direction: column;
 }
 
-input {
-  color: aqua;
-}
-
 .input1,
 .input2 {
   width: 6rem;

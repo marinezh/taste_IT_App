@@ -5,12 +5,15 @@
   font-family: "Nunito", sans-serif;
 }
 input,
-textarea {
+textarea,
+select {
   border: 1px solid #ccc;
   border-radius: 3px;
   box-sizing: border-box;
+  padding-left: 0.5rem;
 }
 
-input {
+input,
+select {
   height: 2rem;
 }

@@ -8,7 +8,8 @@ const Header = () => {
     <header className={classes.header}>
       <NavLink to="/">
         <h2 className={classes.logo}>
-          <span class="material-symbols-outlined">restaurant</span> TasteIT App
+          <span className="material-symbols-outlined">restaurant</span> TasteIT
+          App
         </h2>
       </NavLink>
       <Nav />

@@ -1021,52 +1021,11 @@
     },
     {
       "id": 16,
-      "name": "good soup",
-      "author": "marina",
+      "name": "Borch",
+      "author": "Marina",
       "country": "Ukraine",
-      "description": "dddd",
-      "image": "ddd",
-      "ingredients": [
-        {
-          "quantity": "d",
-          "unit": "d",
-          "ingredient": "d"
-        },
-        {
-          "quantity": "d",
-          "unit": "d",
-          "ingredient": "d"
-        }
-      ],
-      "instructions": "ddd"
-    },
-    {
-      "id": 17,
-      "name": "",
-      "author": "",
-      "country": "",
-      "description": "",
-      "image": "",
-      "ingredients": [],
-      "instructions": ""
-    },
-    {
-      "id": 18,
-      "name": "",
-      "author": "",
-      "country": "",
-      "description": "",
-      "image": "",
-      "ingredients": [],
-      "instructions": ""
-    },
-    {
-      "id": 19,
-      "name": "",
-      "author": "",
-      "country": "",
-      "description": "",
-      "image": "",
+      "description": "Borsh is a vibrant red colour soup with cabbage, beets, potatoes, carrots, onion and garlic, and possibly beef and beans. Then served with sour cream and dill.",
+      "image": "https://natashaskitchen.com/wp-content/uploads/2018/10/Borscht-Recipe-2-500x500.jpg",
       "ingredients": [],
       "instructions": ""
     }

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import classes from "./NewRecipe.module.css";
 import axios from "axios";
 
@@ -18,6 +18,8 @@ const NewRecipe = () => {
     { quantity: "", unit: "", ingredient: "" },
   ]);
 
+  const [countries, setCountries] = useState([]);
+
   const addHandler = () => {
     setAddIng([...addIngredient, { quantity: "", unit: "", ingredient: "" }]);
   };
@@ -31,6 +33,17 @@ const NewRecipe = () => {
   const changeHandler = (event) => {
     setNewRecipe({ ...newRecipe, [event.target.name]: event.target.value });
   };
+
+  useEffect(() => {
+    axios.get(`https://restcountries.com/v3.1/all`).then((res) => {
+      //
+      let data = [];
+      res.data.map((a) => data.push(a.name.common));
+      data.sort();
+      setCountries(data);
+    });
+  }, []);
+  console.log("countriesss", countries);
 
   const postHandler = () => {
     axios
@@ -67,13 +80,22 @@ const NewRecipe = () => {
         </div>
         <div className={classes.input}>
           <label htmlFor="country">Country</label>
-          <input
-            onChange={(e) => changeHandler(e)}
-            type="text"
-            id="country"
+          <select
             name="country"
-          />
+            id="country"
+            onChange={(e) => changeHandler(e)}
+          >
+            <option value="" onChange={(e) => changeHandler(e)}>
+              Select Country
+            </option>
+            {countries.map((country) => (
+              <option key={country} value={country}>
+                {country}
+              </option>
+            ))}
+          </select>
         </div>
+
         <div className={classes.textarea}>
           <label htmlFor="description">Description</label>
           <textarea
