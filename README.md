@@ -1,6 +1,9 @@
 # TasteIT
 
 [Live Link](https://admirable-elf-9efde3.netlify.app/)
+
+###
+
 TasteIt App is a learninig project which was built as a part of React course with Margit Tenosaar [@margittennosaar](https://www.github.com/margittennosaar)
 
 # About
