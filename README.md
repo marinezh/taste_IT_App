@@ -12,7 +12,7 @@ Application where people can browse different recipes from all over the world an
 
 # Browsing recipes page
 
-![Screenshot](Screenshot2.png)
+![Screenshot](Screenshot1.png)
 
 ## to run project
 
