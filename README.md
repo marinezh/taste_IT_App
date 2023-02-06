@@ -1,14 +1,18 @@
 # TasteIT
 
+TasteIt App is a learninig project which was built as a part of React course with Margit Tenosaar [@margittennosaar](https://www.github.com/margittennosaar)
+
+# About
+
 Application where people can browse different recipes from all over the world and share their own favourite recipes.
 
 # Landing page
 
-![Screenshot](screenshot1.png)
+![Screenshot](Screenshot.png)
 
 # Browsing recipes page
 
-![Screenshot](screenshot2.png)
+![Screenshot](Screenshot2.png)
 
 ## to run project
 
