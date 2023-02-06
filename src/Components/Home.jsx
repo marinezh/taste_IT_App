@@ -1,5 +1,4 @@
 import React from "react";
-// import videoBG from "../Assets/video.mp4";
 import { NavLink } from "react-router-dom";
 import classes from "./Home.module.css";
 import Hero from "./Hero";
