@@ -2,7 +2,12 @@
 
 Application where people can browse different recipes from all over the world and share their own favourite recipes.
 
+# Landing page
+
 ![Screenshot](screenshot1.png)
+
+# Browsing recipes page
+
 ![Screenshot](screenshot2.png)
 
 ## to run project
