@@ -7,10 +7,10 @@ const Header = () => {
   return (
     <header className={classes.header}>
       <NavLink to="/">
-        <h2 className={classes.logo}>
-          <span className="material-symbols-outlined">restaurant</span> TasteIT
-          App
-        </h2>
+        <div className={classes.logo_wrap}>
+          <span className="material-symbols-outlined">restaurant</span>
+          <h2 className={classes.logo}>TasteIT App</h2>
+        </div>
       </NavLink>
       <Nav />
     </header>

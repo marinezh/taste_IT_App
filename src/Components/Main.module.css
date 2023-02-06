@@ -1,6 +1,5 @@
 .main {
   display: flex;
   flex-direction: column;
-  background-color: #abaaad;
-  /* max-height: 100vh; */
+  height: 100%;
 }

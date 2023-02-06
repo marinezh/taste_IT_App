@@ -1,13 +1,14 @@
 .footer {
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: silver;
-  max-height: 30px;
+  height: 30px;
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  text-align: center;
-
-  /* z-index: 5; */
 }
 
 .footer_info {

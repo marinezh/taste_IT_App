@@ -10,10 +10,10 @@ const Hero = () => {
       </div>
 
       <div className={classes.hero_content}>
-        {/* <h3 className={classes.hero_title}>
+        <h3 className={classes.hero_title}>
           Application where people all around the world can share their
           favourite recipes.
-        </h3> */}
+        </h3>
         <p className={classes.hero_title}>
           Made in REACT22S Group with Margit Tennosaar
         </p>

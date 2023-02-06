@@ -58,9 +58,9 @@ const NewRecipe = () => {
   };
 
   return (
-    <>
+    <div className={classes.newrecipe_wrap}>
       <h1 className={classes.title}>Add new recipe here</h1>
-      <form className={classes.new_recipe_wrap} onSubmit={postHandler}>
+      <form className={classes.form} onSubmit={postHandler}>
         <div className={classes.input}>
           <label htmlFor="name">Name</label>
           <input
@@ -175,7 +175,7 @@ const NewRecipe = () => {
           Post recipe
         </button>
       </form>
-    </>
+    </div>
   );
 };
 

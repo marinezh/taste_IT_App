@@ -1,4 +1,9 @@
-.new_recipe_wrap {
+.newrecipe_wrap {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+.form {
   margin-top: 1rem;
   display: flex;
   flex-direction: column;
@@ -47,11 +52,11 @@ label {
   color: #0e1111;
 }
 
-.button {
+/* .button {
   margin: 1rem 0 1rem 0;
   background-color: #ff5252;
   border-style: none;
   border-radius: 3px;
   padding: 0.5rem 1rem 0.5rem 1rem;
   margin-bottom: 1rem;
-}
+} */

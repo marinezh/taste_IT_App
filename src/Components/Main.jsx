@@ -4,9 +4,9 @@ import classes from "./Main.module.css";
 
 const Main = () => {
   return (
-    <div className={classes.main}>
+    <main className={classes.main}>
       <Outlet />
-    </div>
+    </main>
   );
 };
 

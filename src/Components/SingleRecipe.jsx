@@ -8,32 +8,28 @@ import axios from "axios";
 const SingleRecipe = () => {
   const [recipe, setRecipe] = useState({});
   const [flag, setFlag] = useState("");
-  //   const [isLoading, setIsLoading] = useState(false);
 
   const params = useParams();
   console.log("params", params);
   const navigate = useNavigate();
 
   useEffect(() => {
-    // setIsLoading(true);
     axios
       .get(`http://localhost:3001/recipes/${params.singlerecipe}`)
       .then((res) => {
         setRecipe(res.data);
-        // setIsLoading(false);
 
         axios
           .get(`https://restcountries.com/v3.1/name/${res.data.country}`)
           .then((res) => {
             setFlag(res.data[0].flags.svg);
-            // setIsLoading(false);
           });
       });
   }, [params.singlerecipe]);
 
   console.log("test", recipe.ingredients);
   return (
-    <div>
+    <div className={classes.single_wrap}>
       <h2 className={classes.recipe_name}>{recipe.name}</h2>
       <div className={classes.recipe_card}>
         <div className={classes.desc_img_wrap}>
@@ -64,9 +60,8 @@ const SingleRecipe = () => {
             <p>{recipe.instructions}</p>
           </div>
         </div>
-
-        <button onClick={() => navigate(-1)}>Go back</button>
-      </div>
+      </div>{" "}
+      <button onClick={() => navigate(-1)}>Go back</button>
     </div>
   );
 };
