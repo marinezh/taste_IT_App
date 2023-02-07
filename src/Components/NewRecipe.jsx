@@ -42,7 +42,6 @@ const NewRecipe = () => {
       setCountries(data);
     });
   }, []);
-  console.log("countriesss", countries);
 
   const postHandler = (e) => {
     e.preventDefault();

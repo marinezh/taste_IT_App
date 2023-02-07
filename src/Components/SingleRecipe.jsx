@@ -10,7 +10,6 @@ const SingleRecipe = () => {
   const [flag, setFlag] = useState("");
 
   const params = useParams();
-  console.log("params", params);
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -27,7 +26,6 @@ const SingleRecipe = () => {
       });
   }, [params.singlerecipe]);
 
-  console.log("test", recipe.ingredients);
   return (
     <div className={classes.single_wrap}>
       <h2 className={classes.recipe_name}>{recipe.name}</h2>

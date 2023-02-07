@@ -16,7 +16,6 @@ const Recipes = () => {
 
   const searchHandler = (e) => {
     setSearch(e.target.value);
-    console.log(e.target.value);
   };
 
   const filteredSearch = recipes.filter((item) => {
