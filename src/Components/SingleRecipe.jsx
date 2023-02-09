@@ -59,7 +59,9 @@ const SingleRecipe = () => {
           </div>
         </div>
       </div>{" "}
-      <button onClick={() => navigate(-1)}>Go back</button>
+      <button className={classes.button} onClick={() => navigate(-1)}>
+        Go back
+      </button>
     </div>
   );
 };
