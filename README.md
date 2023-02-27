@@ -1,4 +1,4 @@
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=marinezh_taste_IT_App&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=marinezh_taste_IT_App)
+[![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-white.svg)](https://sonarcloud.io/summary/new_code?id=marinezh_taste_IT_App)
 
 # TasteIT
 
