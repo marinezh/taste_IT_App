@@ -1,3 +1,5 @@
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=marinezh_taste_IT_App&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=marinezh_taste_IT_App)
+
 # TasteIT
 
 [Live Link](https://admirable-elf-9efde3.netlify.app/)
