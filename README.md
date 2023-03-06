@@ -1,3 +1,5 @@
+[![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-white.svg)](https://sonarcloud.io/summary/new_code?id=marinezh_taste_IT_App)
+
 # TasteIT
 
 [Live Link](https://admirable-elf-9efde3.netlify.app/)
