@@ -1,0 +1,6 @@
+projectKey=taste_IT
+serverUrl=http://localhost:8889
+serverVersion=9.9.0.65466
+dashboardUrl=http://localhost:8889/dashboard?id=taste_IT
+ceTaskId=AYaSYzRxXWeR79c_O4uD
+ceTaskUrl=http://localhost:8889/api/ce/task?id=AYaSYzRxXWeR79c_O4uD

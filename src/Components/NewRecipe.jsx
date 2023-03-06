@@ -155,7 +155,7 @@ const NewRecipe = () => {
           <button
             className={classes.button}
             type="button"
-            onClick={(e) => addHandler(e)}
+            onClick={() => addHandler()}
           >
             Add more
           </button>
